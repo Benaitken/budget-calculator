@@ -10,7 +10,6 @@ View a menu to navigate between options
 
 It does not save data between sessions, and the balance summary feature is minimal.
 
------
 
 This is the advanced version of a simple budget calculator written in Python.
 It stores incomes and expenses in a JSON file so your data is saved between program runs.
