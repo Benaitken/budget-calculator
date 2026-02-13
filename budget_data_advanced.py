@@ -45,7 +45,7 @@ def add_expense(expenses):
                 print("Expense cannot be negative. Try again.")
                 continue
             expenses.append((name, amount))
-            print(f"🧾 Expense '{name}' of ${amount:.2f} added!")
+            print(f"Expense '{name}' of ${amount:.2f} added!")
             break
         except ValueError:
             print("Please enter a valid number.")   
@@ -88,6 +88,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
