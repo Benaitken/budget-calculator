@@ -14,12 +14,12 @@ def main():
         if choice == "1":
             amount = float(input("Enter income amount:$"))
             incomes.append(amount)
-            print(f"✅Income of $ {amount:.2f} added!")
+            print(f"Income of $ {amount:.2f} added!")
         elif choice == "2":
            name = input("Enter expense name: ")
            amount = float(input("Enter expense amount: $"))
            expenses.append((name, amount))
-           print(f"🧾 Expense '{name}' of ${amount:.2f} added!")
+           print(f"Expense '{name}' of ${amount:.2f} added!")
         elif choice == "3":
             total_income = sum(incomes)
             total_expenses = sum(amount for name, amount in expenses)
